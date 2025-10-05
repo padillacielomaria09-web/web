@@ -1,0 +1,135 @@
+.container-fluid{
+  padding: 20px;
+  background-color: #cecdcd;
+}
+
+
+.imagenes{
+text-align: center;
+}
+
+
+.imagenes img{width: 400px;
+  display: inline-block;
+  height: 400px;
+  padding:20px;
+  
+  
+  
+border: 5px solid #fc6d33;
+  animation: zoom 3s ease-in-out infinite;
+  background-color:#fc6d33;
+  gap:200px;
+  margin:80px;
+}
+ @keyframes zoom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); 
+  }
+}
+.linea{
+  padding: 10px;
+  background-color: #fc6d33;
+}
+
+h1{ text-align: center;}
+
+
+   body{
+    background-color: #ebe9e8;
+   }
+ .centro {
+  text-align: center;
+ }   
+ h1{ font-size: 50px;
+}
+
+.container{
+  text-align: center;
+  display: flex;
+}
+    .container img{
+    
+      width: 400px;
+  height: 400px;
+  padding:30px;
+  text-align:center;
+border: 3px solid #fc6d33;
+  animation: zoom 3s ease-in-out infinite;
+  background-color:#fc6d33;
+  gap:20px;
+  margin:70px;
+}
+ @keyframes zoom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); 
+  }
+}
+
+ 
+
+  
+form {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 20px;
+  background: #f89d79;
+  box-shadow: 1 6px 18px rgba(12, 12, 12, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 25px;
+  
+}
+
+
+
+
+ 
+
+  
+
+
+
+.carousel-caption h5 {
+    text-shadow: 5px 5px 6px #000;
+}
+.carousel-indicators li{
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50%;
+}
+ 
+
+p{font-size: 30px;}
+
+   
+
+footer a{
+ font-size: 10px;
+ display: block;
+ color: #000;
+ text-align: right;
+
+}
+ p{
+  text-align: center;
+}
+
+footer{
+  padding: 30px;
+  background-color: #000000;
+}
+.copy{
+  padding: 10px 20px;
+  background-color: #000;
+}
+ .copy p{
+  font-size: 20px;
+ }

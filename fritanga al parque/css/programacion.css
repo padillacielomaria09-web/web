@@ -1,0 +1,55 @@
+ .row > div{  padding: 25px 0; text-align: center;}
+       .naranja{ background: #f1c87a;}
+       .piel{ background: #f8e5c3;}
+          .amarillo{ background: #f5ec9e;}
+          .claro{ background: #fff8bc;}
+          
+ body{
+  
+    background-color: #ebe9e8;
+ }
+.container-fluid{
+  padding: 20px;
+  background-color: #cecdcd;
+}
+
+
+  h1{text-align: center;}
+
+
+.carousel-caption h5 {
+    text-shadow: 5px 5px 6px #000;
+}
+.carousel-indicators li{
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50%;
+}
+ 
+
+p{font-size: 30px;
+text-align: center;}
+
+   
+
+footer a{
+ font-size: 10px;
+ display: block;
+ color: #000;
+ text-align: right;
+
+}
+ 
+
+
+footer{
+  padding: 30px;
+  background-color: #000000;
+}
+.copy{
+  padding: 10px 20px;
+  background-color: #000;
+}
+ .copy p{
+  font-size: 20px;
+ }
